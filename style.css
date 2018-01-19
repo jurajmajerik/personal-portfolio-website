@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Custom";
+  src: url("Custom.otf") format('opentype');
+}
+
+body {
+  font-family: 'Custom', 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #FBFBFB;
+  text-decoration: none;
+}
+
+.nav {
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+}
+
+#welcome-section {
+  background-image: url('welcome.png');
+  height: 100vh;
+  margin-top: -57px;
+  margin-bottom: 50px;
+}
+
+body {min-height:200vh;} .navbar-default {
+  transition: 300ms ease;
+  background: transparent;
+}
+.navbar-default.scrolled{
+  background: rgb(99, 99, 99);
+}
+
+#greeting {
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#projects {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.col-4 {
+  padding: 0px;
+}
+
+.item {
+  padding: 20px 20px 20px 20px;
+}
+
+.box {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*border: solid 1px rgb(99, 99, 99);
+  border-radius: 5px;*/
+}
+
+.project-tile:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.015);
+}
